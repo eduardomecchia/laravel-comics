@@ -69,3 +69,8 @@
 #site-header > .container .menu .searchbox input:focus-visible {
   outline: 0;
 }
+
+/* Main content rules */
+#main-content {
+  background-color: #1c1c1c;
+}

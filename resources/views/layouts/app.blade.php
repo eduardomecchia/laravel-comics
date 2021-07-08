@@ -47,9 +47,7 @@
         </header>
         
         <main id="main-content">
-            <div class="container">
-                main content
-            </div>
+            @yield("content")
         </main>
 
         <footer id="site-footer">
