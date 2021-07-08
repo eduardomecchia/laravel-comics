@@ -3,8 +3,18 @@
 #site-header {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 
-    .menu {
-        display: flex;
+    .container {
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
     }
 }

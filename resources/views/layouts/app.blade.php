@@ -15,30 +15,36 @@
 
     <body>
         <header id="site-header">
-            <div class="logo">
-                <img src="{{asset('img/dc-logo.png')}}" alt="">
-            </div>
+            <div class="container">
+                <div class="logo">
+                    <img src="{{asset('img/dc-logo.png')}}" alt="">
+                </div>
 
-            <nav class="menu">
-                <a href="#">Characters</a>
-                <a href="#">Comics</a>
-                <a href="#">Movies</a>
-                <a href="#">Tv</a>
-                <a href="#">Games</a>
-                <a href="#">Collectibles</a>
-                <a href="#">Videos</a>
-                <a href="#">Fans</a>
-                <a href="#">News</a>
-                <a href="#">Shop</a>
-            </nav>
+                <nav class="menu">
+                    <a href="#">Characters</a>
+                    <a href="#">Comics</a>
+                    <a href="#">Movies</a>
+                    <a href="#">Tv</a>
+                    <a href="#">Games</a>
+                    <a href="#">Collectibles</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Fans</a>
+                    <a href="#">News</a>
+                    <a href="#">Shop</a>
+                </nav>
+            </div>
         </header>
         
         <main id="main-content">
-            Main content
+            <div class="container">
+                main content
+            </div>
         </main>
 
         <footer id="site-footer">
-            Footer Content
+            <div class="container">
+                footer content
+            </div>
         </footer>
     </body>
 </html>
