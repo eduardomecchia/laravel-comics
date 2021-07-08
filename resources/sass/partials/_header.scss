@@ -1,0 +1,10 @@
+/* Header rules */
+
+#site-header {
+    display: flex;
+    align-items: center;
+
+    .menu {
+        display: flex;
+    }
+}

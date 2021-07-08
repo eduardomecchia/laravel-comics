@@ -1,0 +1,8 @@
+/* Header rules */
+#site-header {
+  display: flex;
+  align-items: center;
+}
+#site-header .menu {
+  display: flex;
+}
