@@ -15,10 +15,17 @@
 
     <body>
         <header id="site-header">
-            <div class="container">
-                <div class="logo">
-                    <img src="{{asset('img/dc-logo.png')}}" alt="">
+            <div class="header-top">
+                <div class="container">
+                    <span>DC POWER&trade; VISA&reg;</span>
+                    <span>ADDITIONAL DC SITES</span>
                 </div>
+            </div>
+
+            <div class="container">
+                <a href="/" class="logo">
+                    <img src="{{asset('img/dc-logo.png')}}" alt="">
+                </a>
 
                 <nav class="menu">
                     <a href="#">Characters</a>
@@ -31,6 +38,10 @@
                     <a href="#">Fans</a>
                     <a href="#">News</a>
                     <a href="#">Shop</a>
+
+                    <div class="searchbox">
+                        <input type="text" placeholder="SEARCH"> 
+                    </div>
                 </nav>
             </div>
         </header>

@@ -1,5 +1,11 @@
 /* Common rules */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;

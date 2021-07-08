@@ -1,4 +1,10 @@
 /* Common rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -7,15 +13,59 @@
 /* Header rules */
 #site-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
-#site-header .container .menu {
+#site-header .header-top {
+  background-color: #0282f9;
+  color: #ffffff;
+  width: 100%;
+  padding: 5px 0;
+}
+#site-header .header-top .container {
   display: flex;
+  justify-content: flex-end;
+}
+#site-header > .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+#site-header > .container .menu {
+  display: flex;
+  flex-grow: 1;
   justify-content: space-evenly;
   align-items: center;
 }
-#site-header .container .menu a {
+#site-header > .container .menu a {
+  color: #303030;
   text-decoration: none;
   text-transform: uppercase;
+}
+#site-header > .container .menu .searchbox {
+  border-bottom: 2px solid #0282f9;
+  padding: 5px 0;
+}
+#site-header > .container .menu .searchbox input {
+  border: 0;
+  position: relative;
+}
+#site-header > .container .menu .searchbox input::-moz-placeholder {
+  color: #303030;
+  position: absolute;
+  right: 0;
+}
+#site-header > .container .menu .searchbox input:-ms-input-placeholder {
+  color: #303030;
+  position: absolute;
+  right: 0;
+}
+#site-header > .container .menu .searchbox input::placeholder {
+  color: #303030;
+  position: absolute;
+  right: 0;
+}
+#site-header > .container .menu .searchbox input:focus-visible {
+  outline: 0;
 }
