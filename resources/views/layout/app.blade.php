@@ -25,7 +25,7 @@
         </header>
         
         <main id="main-content">
-
+            Main content
         </main>
 
         <footer id="site-footer">
