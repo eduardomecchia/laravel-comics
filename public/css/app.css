@@ -96,7 +96,46 @@
 /* Footer rules */
 #site-footer {
   background-image: url("../img/footer-bg.jpg");
-  height: 400px;
+  font-size: 13px;
+  color: #959595;
+}
+#site-footer > .container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#site-footer > .container a {
+  color: inherit;
+  text-decoration: none;
+}
+#site-footer > .container a:hover {
+  color: #0282f9;
+}
+#site-footer > .container .menus {
+  display: flex;
+}
+#site-footer > .container .menus .menu {
+  list-style-type: none;
+}
+#site-footer > .container .menus .menu .menu-heading {
+  font-size: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#site-footer > .container .menus .menu li {
+  margin: 4px 0;
+}
+#site-footer > .container .menus > .menu {
+  margin-right: 30px;
+}
+#site-footer > .container .disclaimer {
+  margin-top: 20px;
+}
+#site-footer > .container .disclaimer a {
+  color: #0282f9;
 }
 #site-footer .call-to-action {
   padding: 30px 0;
@@ -112,6 +151,8 @@
   border: 2px solid #0282f9;
   padding: 10px 20px;
   background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
 }
 #site-footer .call-to-action .container .social {
   display: flex;
@@ -119,5 +160,6 @@
   gap: 25px;
 }
 #site-footer .call-to-action .container .social span {
+  font-size: 26px;
   color: #0282f9;
 }
