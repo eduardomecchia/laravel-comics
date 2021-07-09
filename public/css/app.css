@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: "Greta Sans Medium", "Greta Sans Regular", Arial, sans-serif;
-  letter-spacing: 0.03em;
 }
 
 .container {
@@ -52,7 +51,7 @@
   color: #303030;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
   font-weight: bold;
 }
@@ -62,24 +61,29 @@
 #site-header > .container .header-menu .searchbox {
   border-bottom: 2px solid #0282f9;
   padding: 5px 0;
+  max-width: 125px;
 }
 #site-header > .container .header-menu .searchbox input {
   border: 0;
   position: relative;
+  width: 100%;
 }
 #site-header > .container .header-menu .searchbox input::-moz-placeholder {
   color: #303030;
   position: absolute;
+  font-weight: bold;
   right: 0;
 }
 #site-header > .container .header-menu .searchbox input:-ms-input-placeholder {
   color: #303030;
   position: absolute;
+  font-weight: bold;
   right: 0;
 }
 #site-header > .container .header-menu .searchbox input::placeholder {
   color: #303030;
   position: absolute;
+  font-weight: bold;
   right: 0;
 }
 #site-header > .container .header-menu .searchbox input:focus-visible {
@@ -133,15 +137,19 @@
 #site-footer > .container .menus {
   display: flex;
 }
+#site-footer > .container .menus .footer-menu:first-child li:last-child .footer-menu {
+  margin-top: 15px;
+}
 #site-footer > .container .menus .footer-menu {
   list-style-type: none;
 }
 #site-footer > .container .menus .footer-menu .menu-heading {
-  font-size: 26px;
+  font-size: 20px;
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 #site-footer > .container .menus .footer-menu li {
   margin: 4px 0;

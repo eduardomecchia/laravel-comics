@@ -40,7 +40,7 @@
                     <a href="#">Shop</a>
 
                     <div class="searchbox">
-                        <input type="text" placeholder="SEARCH"> 
+                        <input type="text" placeholder="Search"> 
                     </div>
                 </nav>
             </div>
@@ -69,7 +69,7 @@
                             <ul class="footer-menu">
                                 <li><h2 class="menu-heading">Shop</h2></li>
                                 <li><a href="#">Shop DC</a></li>
-                                <li><a href="#">Shop DC Colletibles</a></li>
+                                <li><a href="#">Shop DC Collectibles</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -25,15 +25,24 @@
         .menus {
             display: flex;
 
+            .footer-menu:first-child {
+                li:last-child {
+                    .footer-menu {
+                        margin-top: 15px;
+                    }
+                }
+            }
+
             .footer-menu {
                 list-style-type: none;
     
                 .menu-heading {
-                    font-size: 26px;
+                    font-size: 20px;
                     color: $brand-color-2;
                     text-transform: uppercase;
                     font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
                     font-weight: bold;
+                    margin-bottom: 15px;
                 }
     
                 li {

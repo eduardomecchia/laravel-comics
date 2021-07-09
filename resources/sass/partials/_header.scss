@@ -43,7 +43,7 @@
                 color: $brand-color-3;
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: 20px;
+                font-size: 15px;
                 font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
                 font-weight: bold;
 
@@ -55,14 +55,17 @@
             .searchbox {
                 border-bottom: 2px solid $brand-color-1;
                 padding: 5px 0;
+                max-width: 125px;
 
                 input {
                     border: 0;
                     position: relative;
+                    width: 100%;
 
                     &::placeholder {
                         color: $brand-color-3;
                         position: absolute;
+                        font-weight: bold;
                         right: 0;
                     }
 
