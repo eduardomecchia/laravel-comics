@@ -1,0 +1,50 @@
+/* Single comic page rules */
+
+#main-content {
+    .bar {
+        height: 75px;
+        background-color: $brand-color-1;
+    }
+
+    .wrapper {
+        background-color: white;
+        position: relative;
+        padding: 80px 0;
+
+        .single-comic {
+    
+            img {
+                border: 1px solid white;
+                position: absolute;
+                top: -315px;
+            }
+
+            .comic-title {
+                text-transform: uppercase;
+                color: $brand-color-5;
+            }
+
+            .price-bar {
+                display: flex;
+                background-color: #55ba59;
+                padding: 15px 10px;
+                margin: 20px 0;
+
+                div {
+                    span:first-child {
+                        color: darken($brand-color-2, 7.5%);
+                    }
+
+                    span:last-child {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .comic-description {
+                color: $brand-color-3;
+                line-height: 27px;
+            }
+        }
+    }
+}

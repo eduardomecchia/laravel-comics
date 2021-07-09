@@ -160,6 +160,42 @@
   color: #ffffff;
 }
 
+/* Single comic page rules */
+#main-content .bar {
+  height: 75px;
+  background-color: #0282f9;
+}
+#main-content .wrapper {
+  background-color: white;
+  position: relative;
+  padding: 80px 0;
+}
+#main-content .wrapper .single-comic img {
+  border: 1px solid white;
+  position: absolute;
+  top: -315px;
+}
+#main-content .wrapper .single-comic .comic-title {
+  text-transform: uppercase;
+  color: #003f5e;
+}
+#main-content .wrapper .single-comic .price-bar {
+  display: flex;
+  background-color: #55ba59;
+  padding: 15px 10px;
+  margin: 20px 0;
+}
+#main-content .wrapper .single-comic .price-bar div span:first-child {
+  color: #ececec;
+}
+#main-content .wrapper .single-comic .price-bar div span:last-child {
+  font-weight: bold;
+}
+#main-content .wrapper .single-comic .comic-description {
+  color: #303030;
+  line-height: 27px;
+}
+
 /* Footer rules */
 #site-footer {
   background-image: url("../img/footer-bg.jpg");
