@@ -75,12 +75,18 @@
             align-items: center;
 
             button {
-                color: white;
+                color: $brand-color-2;
                 border: 2px solid $brand-color-1;
-                padding: 10px 20px;
+                padding: 15px 10px;
                 background-color: transparent;
                 cursor: pointer;
-                font-size: 20px;
+                font-size: 16px;
+                font-weight: bold;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: $brand-color-1;
+                }
             }
 
             .social {
@@ -101,7 +107,7 @@
                 }
     
                 span {
-                    font-size: 26px;
+                    font-size: 20px;
                     color: $brand-color-1;
                     font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
                     font-weight: bold;

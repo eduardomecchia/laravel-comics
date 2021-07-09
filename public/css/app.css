@@ -41,6 +41,12 @@
   justify-content: space-between;
   padding: 15px 0;
 }
+#site-header > .container .logo {
+  max-width: 81px;
+}
+#site-header > .container .logo img {
+  max-width: 100%;
+}
 #site-header > .container .header-menu {
   display: flex;
   flex-grow: 1;
@@ -173,12 +179,17 @@
   align-items: center;
 }
 #site-footer .call-to-action .container button {
-  color: white;
+  color: #ffffff;
   border: 2px solid #0282f9;
-  padding: 10px 20px;
+  padding: 15px 10px;
   background-color: transparent;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+#site-footer .call-to-action .container button:hover {
+  background-color: #0282f9;
 }
 #site-footer .call-to-action .container .social {
   display: flex;
@@ -192,7 +203,7 @@
   filter: brightness(80%);
 }
 #site-footer .call-to-action .container .social span {
-  font-size: 26px;
+  font-size: 20px;
   color: #0282f9;
   font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
   font-weight: bold;
