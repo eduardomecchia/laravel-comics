@@ -24,8 +24,13 @@
 
         .comic {
             text-transform: uppercase;
+            text-decoration: none;
             max-width: 192px;
             cursor: pointer;
+
+            .comic-series {
+                color: $brand-color-2;
+            }
         }
     }
 }

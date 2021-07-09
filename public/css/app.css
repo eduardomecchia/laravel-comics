@@ -152,8 +152,12 @@
 }
 #main-content > .container.comics .comic {
   text-transform: uppercase;
+  text-decoration: none;
   max-width: 192px;
   cursor: pointer;
+}
+#main-content > .container.comics .comic .comic-series {
+  color: #ffffff;
 }
 
 /* Footer rules */
