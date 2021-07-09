@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
 
     <body>
@@ -24,7 +24,7 @@
 
             <div class="container">
                 <a href="/" class="logo">
-                    <img src="{{asset('img/dc-logo.png')}}" alt="">
+                    <img src="{{ asset('img/dc-logo.png') }}" alt="">
                 </a>
 
                 <nav class="menu">
@@ -54,7 +54,37 @@
 
         <footer id="site-footer">
             <div class="container">
-                footer content
+                footer menu
+
+            </div>
+            <div class="call-to-action">
+                <div class="container">
+                    <button>SIGN UP NOW!</button>
+
+                    <div class="social">
+                        <span>FOLLOW US</span>
+
+                        <a href="#">
+                            <img src="{{ asset('img/footer-facebook.png') }}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{ asset('img/footer-twitter.png') }}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{ asset('img/footer-youtube.png') }}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{ asset('img/footer-pinterest.png') }}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{ asset('img/footer-periscope.png') }}" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
     </body>
