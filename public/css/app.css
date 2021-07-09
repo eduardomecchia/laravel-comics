@@ -104,32 +104,6 @@
 }
 
 /* Main content rules */
-#main-content {
-  background-color: #1c1c1c;
-  color: #ffffff;
-}
-#main-content > .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 50px 0;
-  position: relative;
-}
-#main-content > .container h2 {
-  background-color: #0282f9;
-  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  font-size: 30px;
-  padding: 10px 30px;
-  top: -30px;
-  left: 0;
-}
-#main-content > .container .comic {
-  text-transform: uppercase;
-  max-width: 192px;
-  cursor: pointer;
-}
 #main-content .features {
   background-color: #0282f9;
   padding: 40px 0;
@@ -152,6 +126,34 @@
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* Comics route rules */
+#main-content {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+#main-content > .container.comics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  position: relative;
+}
+#main-content > .container.comics h2 {
+  background-color: #0282f9;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 30px;
+  padding: 10px 30px;
+  top: -30px;
+  left: 0;
+}
+#main-content > .container.comics .comic {
+  text-transform: uppercase;
+  max-width: 192px;
+  cursor: pointer;
 }
 
 /* Footer rules */

@@ -1,35 +1,6 @@
 /* Main content rules */
 
 #main-content {
-    background-color: #1c1c1c;
-    color: $brand-color-2;
-
-    > .container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 50px 0;
-        position: relative;
-
-        h2 {
-            background-color: $brand-color-1;
-            font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
-            text-transform: uppercase;
-            position: absolute;
-            font-size: 30px;
-            padding: 10px 30px;
-            top: -30px;
-            left: 0;
-        }
-
-        .comic {
-            text-transform: uppercase;
-            max-width: 192px;
-            cursor: pointer;
-        }
-
-    }
-
     .features {
         background-color: $brand-color-1;
         padding: 40px 0;

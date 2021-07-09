@@ -3,7 +3,7 @@
 @section("title", "DC Comics")
 
 @section("content")
-    <div class="container">
+    <div class="container comics">
         <h2>Current series</h2>
 
         @foreach($comics as $comic)
