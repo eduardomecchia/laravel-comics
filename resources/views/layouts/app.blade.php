@@ -14,6 +14,7 @@
     </head>
 
     <body>
+        <!-- Website header -->
         <header id="site-header">
             <div class="header-top">
                 <div class="container">
@@ -48,6 +49,7 @@
             <div class="jumbotron"></div>
         </header>
         
+        <!-- Website content -->
         <main id="main-content">
             @yield("content")
 
@@ -81,6 +83,7 @@
             </div>
         </main>
 
+        <!-- Website footer -->
         <footer id="site-footer">
             <div class="container">
                 <div class="menus">
