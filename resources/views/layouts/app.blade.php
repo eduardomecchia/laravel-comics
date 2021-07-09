@@ -29,7 +29,7 @@
 
                 <nav class="menu">
                     <a href="#">Characters</a>
-                    <a href="#">Comics</a>
+                    <a href="/comics">Comics</a>
                     <a href="#">Movies</a>
                     <a href="#">Tv</a>
                     <a href="#">Games</a>
