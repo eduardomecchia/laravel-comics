@@ -4,6 +4,8 @@
 
 @section("content")
     <div class="container">
+        <h2>Current series</h2>
+
         @foreach($comics as $comic)
             <div class="comic">
                 <img src="{{ $comic['thumb'] }}" alt="">
