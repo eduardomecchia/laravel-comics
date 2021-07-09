@@ -108,14 +108,14 @@
   background-color: #1c1c1c;
   color: #ffffff;
 }
-#main-content .container {
+#main-content > .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 50px 0;
   position: relative;
 }
-#main-content .container h2 {
+#main-content > .container h2 {
   background-color: #0282f9;
   font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
   text-transform: uppercase;
@@ -125,10 +125,33 @@
   top: -30px;
   left: 0;
 }
-#main-content .container .comic {
+#main-content > .container .comic {
   text-transform: uppercase;
   max-width: 192px;
   cursor: pointer;
+}
+#main-content .features {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+#main-content .features .container {
+  display: flex;
+  justify-content: space-between;
+}
+#main-content .features .container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+#main-content .features .container a img {
+  width: 40px;
+}
+#main-content .features .container a div {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Footer rules */
