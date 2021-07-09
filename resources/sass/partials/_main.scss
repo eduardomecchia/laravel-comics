@@ -3,4 +3,16 @@
 #main-content {
     background-color: #1c1c1c;
     color: $brand-color-2;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+
+        .comic {
+            text-transform: uppercase;
+            max-width: 192px;
+        }
+    }
 }
