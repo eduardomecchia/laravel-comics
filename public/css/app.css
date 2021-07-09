@@ -26,6 +26,14 @@
 #site-header .header-top .container {
   display: flex;
   justify-content: flex-end;
+  font-size: 13px;
+}
+#site-header .header-top .container a {
+  color: white;
+  text-decoration: none;
+}
+#site-header .header-top .container a:last-child {
+  margin-left: 40px;
 }
 #site-header > .container {
   display: flex;

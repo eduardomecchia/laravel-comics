@@ -17,8 +17,8 @@
         <header id="site-header">
             <div class="header-top">
                 <div class="container">
-                    <span>DC POWER&trade; VISA&reg;</span>
-                    <span>ADDITIONAL DC SITES</span>
+                    <a href="#">DC POWER&trade; VISA&reg;</a>
+                    <a href="#">ADDITIONAL DC SITES</a>
                 </div>
             </div>
 

@@ -11,10 +11,20 @@
         color: $brand-color-2;
         width: 100%;
         padding: 5px 0;
-
+        
         .container {
             display: flex;
             justify-content: flex-end;
+            font-size: 13px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            a:last-child {
+                margin-left: 40px;
+            }
         }
     }
 
