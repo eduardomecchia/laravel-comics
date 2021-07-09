@@ -87,6 +87,18 @@
                 display: flex;
                 align-items: center;
                 gap: 25px;
+
+                a {
+                    img {
+                        transition: filter 0.25s;
+                    }
+
+                    &:hover {
+                        img {
+                            filter: brightness(80%);
+                        }
+                    }
+                }
     
                 span {
                     font-size: 26px;

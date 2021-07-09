@@ -185,6 +185,12 @@
   align-items: center;
   gap: 25px;
 }
+#site-footer .call-to-action .container .social a img {
+  transition: filter 0.25s;
+}
+#site-footer .call-to-action .container .social a:hover img {
+  filter: brightness(80%);
+}
 #site-footer .call-to-action .container .social span {
   font-size: 26px;
   color: #0282f9;
