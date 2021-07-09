@@ -18,7 +18,7 @@
             font-size: 13px;
 
             a {
-                color: white;
+                color: $brand-color-2;
                 text-decoration: none;
             }
 
@@ -33,7 +33,7 @@
         justify-content: space-between;
         padding: 15px 0;
 
-        .menu {
+        .header-menu {
             display: flex;
             flex-grow: 1;
             justify-content: space-evenly;
@@ -43,6 +43,13 @@
                 color: $brand-color-3;
                 text-decoration: none;
                 text-transform: uppercase;
+                font-size: 20px;
+                font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+                font-weight: bold;
+
+                &:hover {
+                    color: $brand-color-1;
+                }
             }
 
             .searchbox {

@@ -27,7 +27,7 @@
                     <img src="{{ asset('img/dc-logo.png') }}" alt="">
                 </a>
 
-                <nav class="menu">
+                <nav class="header-menu">
                     <a href="#">Characters</a>
                     <a href="/comics">Comics</a>
                     <a href="#">Movies</a>
@@ -55,7 +55,7 @@
         <footer id="site-footer">
             <div class="container">
                 <div class="menus">
-                    <ul class="menu">
+                    <ul class="footer-menu">
                         <li><h2 class="menu-heading">DC Comics</h2></li>
                         <li><a href="#">Characters</a></li>
                         <li><a href="/comics">Comics</a></li>
@@ -66,7 +66,7 @@
                         <li><a href="#">News</a></li>
     
                         <li>
-                            <ul class="menu">
+                            <ul class="footer-menu">
                                 <li><h2 class="menu-heading">Shop</h2></li>
                                 <li><a href="#">Shop DC</a></li>
                                 <li><a href="#">Shop DC Colletibles</a></li>
@@ -74,7 +74,7 @@
                         </li>
                     </ul>
     
-                    <ul class="menu">
+                    <ul class="footer-menu">
                         <li><h2 class="menu-heading">DC</h2></li>
                         <li><a href="#">Terms of Use</a></li>
                         <li><a href="#">Privacy policy (New)</a></li>
@@ -89,7 +89,7 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
     
-                    <ul class="menu">
+                    <ul class="footer-menu">
                         <li><h2 class="menu-heading">Sites</h2></li>
                         <li><a href="#">DC</a></li>
                         <li><a href="#">MAD Magazine</a></li>

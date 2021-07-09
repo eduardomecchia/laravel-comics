@@ -25,13 +25,15 @@
         .menus {
             display: flex;
 
-            .menu {
+            .footer-menu {
                 list-style-type: none;
     
                 .menu-heading {
                     font-size: 26px;
                     color: $brand-color-2;
                     text-transform: uppercase;
+                    font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+                    font-weight: bold;
                 }
     
                 li {
@@ -39,7 +41,7 @@
                 }
             }
 
-            > .menu {
+            > .footer-menu {
                 margin-right: 30px;
             }
         }
@@ -80,6 +82,8 @@
                 span {
                     font-size: 26px;
                     color: $brand-color-1;
+                    font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+                    font-weight: bold;
                 }
             }
         }

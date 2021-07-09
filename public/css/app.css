@@ -3,6 +3,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Greta Sans Medium", "Greta Sans Regular", Arial, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .container {
@@ -29,7 +31,7 @@
   font-size: 13px;
 }
 #site-header .header-top .container a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 #site-header .header-top .container a:last-child {
@@ -40,41 +42,47 @@
   justify-content: space-between;
   padding: 15px 0;
 }
-#site-header > .container .menu {
+#site-header > .container .header-menu {
   display: flex;
   flex-grow: 1;
   justify-content: space-evenly;
   align-items: center;
 }
-#site-header > .container .menu a {
+#site-header > .container .header-menu a {
   color: #303030;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+  font-weight: bold;
 }
-#site-header > .container .menu .searchbox {
+#site-header > .container .header-menu a:hover {
+  color: #0282f9;
+}
+#site-header > .container .header-menu .searchbox {
   border-bottom: 2px solid #0282f9;
   padding: 5px 0;
 }
-#site-header > .container .menu .searchbox input {
+#site-header > .container .header-menu .searchbox input {
   border: 0;
   position: relative;
 }
-#site-header > .container .menu .searchbox input::-moz-placeholder {
+#site-header > .container .header-menu .searchbox input::-moz-placeholder {
   color: #303030;
   position: absolute;
   right: 0;
 }
-#site-header > .container .menu .searchbox input:-ms-input-placeholder {
+#site-header > .container .header-menu .searchbox input:-ms-input-placeholder {
   color: #303030;
   position: absolute;
   right: 0;
 }
-#site-header > .container .menu .searchbox input::placeholder {
+#site-header > .container .header-menu .searchbox input::placeholder {
   color: #303030;
   position: absolute;
   right: 0;
 }
-#site-header > .container .menu .searchbox input:focus-visible {
+#site-header > .container .header-menu .searchbox input:focus-visible {
   outline: 0;
 }
 #site-header .jumbotron {
@@ -125,18 +133,20 @@
 #site-footer > .container .menus {
   display: flex;
 }
-#site-footer > .container .menus .menu {
+#site-footer > .container .menus .footer-menu {
   list-style-type: none;
 }
-#site-footer > .container .menus .menu .menu-heading {
+#site-footer > .container .menus .footer-menu .menu-heading {
   font-size: 26px;
   color: #ffffff;
   text-transform: uppercase;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+  font-weight: bold;
 }
-#site-footer > .container .menus .menu li {
+#site-footer > .container .menus .footer-menu li {
   margin: 4px 0;
 }
-#site-footer > .container .menus > .menu {
+#site-footer > .container .menus > .footer-menu {
   margin-right: 30px;
 }
 #site-footer > .container .disclaimer {
@@ -170,4 +180,6 @@
 #site-footer .call-to-action .container .social span {
   font-size: 26px;
   color: #0282f9;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+  font-weight: bold;
 }
