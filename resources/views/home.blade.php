@@ -1,3 +1,3 @@
 @extends("layouts.app")
 
-@section("title", "DC Home")
+@section("title", "DC | Welcome to DC")
