@@ -217,6 +217,7 @@
 }
 #main-content .wrapper .container.single-comic .comic-info .price-bar .availability span:last-child {
   padding-left: 20px;
+  cursor: pointer;
 }
 #main-content .wrapper .container.single-comic .comic-info .comic-description {
   color: #303030;
