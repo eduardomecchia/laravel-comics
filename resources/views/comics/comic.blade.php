@@ -13,7 +13,13 @@
 
     <section class="wrapper">
         <div class="container single-comic">
-            <img class="thumbnail" src="{{ $comic['thumb'] }}" alt="">
+            <div class="thumbnail">
+                <img src="{{ $comic['thumb'] }}" alt="">
+
+                <span class="type">{{ $comic["type"] }}</span>
+
+                <span class="gallery">View gallery</span>
+            </div>
 
             <!-- Info about the selected comic -->
             <div class="comic-info">

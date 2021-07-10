@@ -18,6 +18,29 @@
                 border: 1px solid white;
                 position: absolute;
                 top: -315px;
+                cursor: pointer;
+
+                .type {
+                    position: absolute;
+                    font-size: 13px;
+                    background-color: #01a9d9;
+                    top: 0;
+                    left: 0;
+                    text-transform: uppercase;
+                    padding: 5px;
+                }
+
+                .gallery {
+                    position: absolute;
+                    font-size: 13px;
+                    background-color: #01a9d9;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    text-transform: uppercase;
+                    padding: 2.5px;
+                    text-align: center;
+                }
             }
 
             .comic-info {
