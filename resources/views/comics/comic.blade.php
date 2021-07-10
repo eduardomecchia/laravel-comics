@@ -13,18 +13,33 @@
 
     <div class="wrapper">
         <div class="container single-comic">
-            <img src="{{ $comic['thumb'] }}" alt="">
+            <img class="thumbnail" src="{{ $comic['thumb'] }}" alt="">
 
-            <h2 class="comic-title">{{ $comic["title"] }}</h2>
+            <div class="comic-info">
+                <h2 class="comic-title">{{ $comic["title"] }}</h2>
 
-            <div class="price-bar">
-                <div>
-                    <span>U.S. Price:&nbsp;</span> 
-                    <span>{{ $comic["price"] }}</span>
+                <div class="price-bar">
+                    <div class="price">
+                        <span>U.S. Price:&nbsp;</span> 
+                        <span>{{ $comic["price"] }}</span>
+                    </div>
+
+                    <div class="availability">
+                        <span>AVAILABLE</span>
+                        <span>Check Availability</span>
+                    </div>
                 </div>
+
+                <p class="comic-description">{{ $comic["description"] }}</p>
             </div>
 
-            <p class="comic-description">{{ $comic["description"] }}</p>
+            <div class="ad">
+                <h5 class="ad-heading">Advertisement</h5>
+
+                <a href="#">
+                    <img src="{{ asset('img/adv.jpg') }}" alt="">
+                </a>
+            </div>
         </div>
     </div>
 @endsection

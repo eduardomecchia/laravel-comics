@@ -11,41 +11,79 @@
         position: relative;
         padding: 80px 0;
 
-        .single-comic {
-    
-            img {
+        .container.single-comic {
+            display: flex;
+
+            .thumbnail {
                 border: 1px solid white;
                 position: absolute;
                 top: -315px;
             }
 
-            .comic-title {
-                font-size: 32px;
-                font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
-                text-transform: uppercase;
-                color: $brand-color-5;
-            }
+            .comic-info {
+                margin-right: 40px;
 
-            .price-bar {
-                display: flex;
-                background-color: #55ba59;
-                padding: 15px 10px;
-                margin: 20px 0;
+                .comic-title {
+                    font-size: 32px;
+                    font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+                    text-transform: uppercase;
+                    color: $brand-color-5;
+                }
+    
+                .price-bar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #55ba59;
+                    padding: 15px 20px;
+                    margin: 20px 0;
+                    border-bottom: 1px solid black;
+    
+                    .price {
+                        * {
+                            padding: 15px 0;
+                        }
 
-                div {
-                    span:first-child {
-                        color: darken($brand-color-2, 7.5%);
-                    }
-
-                    span:last-child {
                         font-weight: bold;
+
+                        span:first-child {
+                            color: #bafd9c;
+                        }
                     }
+
+                    .availability {
+                        * {
+                            padding: 15px 0;
+                        }
+
+                        span:first-child {
+                            color: #bafd9c;
+                            font-size: 15px;
+                            font-weight: bold;
+                            border-right: 1px solid black;
+                            padding-right: 20px;
+                        }
+
+                        span:last-child {
+                            padding-left: 20px;
+                        }
+                    }
+                }
+    
+                .comic-description {
+                    color: $brand-color-3;
+                    line-height: 27px;
                 }
             }
 
-            .comic-description {
-                color: $brand-color-3;
-                line-height: 27px;
+            .ad {
+                .ad-heading {
+                    font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+                    color: $brand-color-5;
+                    text-transform: uppercase;
+                    text-align: right;
+                    margin-bottom: 5px;
+                }
             }
         }
     }
