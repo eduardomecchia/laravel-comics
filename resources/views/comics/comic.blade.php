@@ -1,11 +1,5 @@
 @extends("layouts.app")
 
-@php
-    $uri = $_SERVER["REQUEST_URI"];
-    $id = $uri[strlen($uri) - 1];
-    $comic = $comics[$id];
-@endphp
-
 @section("title", $comic["title"])
 
 @section("content")
