@@ -229,6 +229,68 @@
   text-align: right;
   margin-bottom: 5px;
 }
+#main-content .comic-details {
+  background-color: #f6f6f6;
+  color: #003f5e;
+}
+#main-content .comic-details .container.details {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-size: 14px;
+}
+#main-content .comic-details .container.details h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#main-content .comic-details .container.details .label {
+  width: 30%;
+  font-weight: bold;
+}
+#main-content .comic-details .container.details a {
+  color: #00a9d9;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+}
+#main-content .comic-details .container.details a:hover {
+  color: #77daf5;
+}
+#main-content .comic-details .container.details .talent {
+  width: 50%;
+  margin-right: 40px;
+}
+#main-content .comic-details .container.details .talent ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+#main-content .comic-details .container.details .talent .art {
+  display: flex;
+  border-top: 1px solid lightgrey;
+  padding: 10px 0;
+}
+#main-content .comic-details .container.details .talent .writers {
+  display: flex;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+#main-content .comic-details .container.details .specs {
+  width: 50%;
+}
+#main-content .comic-details .container.details .specs > *:not(h4) {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid lightgrey;
+}
+#main-content .comic-details .container.details .specs .series a {
+  text-transform: uppercase;
+}
+#main-content .comic-details .container.details .specs .sale-date {
+  border-bottom: 1px solid lightgrey;
+}
 
 /* Footer rules */
 #site-footer {
