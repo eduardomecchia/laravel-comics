@@ -33,5 +33,5 @@ Route::get("/comics/{id}", function($id) {
         abort(404);
     }
 
-})->name("comic");
+})->name("comics/{id}");
 

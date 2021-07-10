@@ -14,7 +14,7 @@
 
         <nav class="header-menu">
             <a href="#">Characters</a>
-            <a href="/comics" class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}">Comics</a>
+            <a href="/comics" class="{{ str_contains(Route::currentRouteName(), 'comics') ? 'active' : '' }}">Comics</a>
             <a href="#">Movies</a>
             <a href="#">Tv</a>
             <a href="#">Games</a>
