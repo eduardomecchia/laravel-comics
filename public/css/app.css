@@ -176,6 +176,8 @@
   top: -315px;
 }
 #main-content .wrapper .single-comic .comic-title {
+  font-size: 32px;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
   text-transform: uppercase;
   color: #003f5e;
 }
