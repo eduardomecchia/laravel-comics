@@ -15,6 +15,7 @@
         <div class="container single-comic">
             <img class="thumbnail" src="{{ $comic['thumb'] }}" alt="">
 
+            <!-- Info about the selected comic -->
             <div class="comic-info">
                 <h2 class="comic-title">{{ $comic["title"] }}</h2>
 
@@ -33,6 +34,7 @@
                 <p class="comic-description">{{ $comic["description"] }}</p>
             </div>
 
+            <!-- Advertising banner -->
             <div class="ad">
                 <h5 class="ad-heading">Advertisement</h5>
 
@@ -41,5 +43,10 @@
                 </a>
             </div>
         </div>
+    </div>
+
+    <!-- Talent and specs of the selected comic -->
+    <div class="comic-details">
+
     </div>
 @endsection
