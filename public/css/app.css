@@ -63,6 +63,29 @@
 }
 #site-header > .container .header-menu a:hover {
   color: #0282f9;
+  position: relative;
+}
+#site-header > .container .header-menu a:hover::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  display: block;
+  background-color: #0282f9;
+  position: absolute;
+  top: 62px;
+}
+#site-header > .container .header-menu a.active {
+  color: #0282f9;
+  position: relative;
+}
+#site-header > .container .header-menu a.active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  display: block;
+  background-color: #0282f9;
+  position: absolute;
+  top: 62px;
 }
 #site-header > .container .header-menu .searchbox {
   border-bottom: 2px solid #0282f9;

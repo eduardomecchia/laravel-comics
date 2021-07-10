@@ -57,6 +57,32 @@
 
                 &:hover {
                     color: $brand-color-1;
+                    position: relative;
+                    
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 4px;
+                        display: block;
+                        background-color: $brand-color-1;
+                        position: absolute;
+                        top: 62px;
+                    }
+                }
+
+                &.active {
+                    color: $brand-color-1;
+                    position: relative;
+                    
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 4px;
+                        display: block;
+                        background-color: $brand-color-1;
+                        position: absolute;
+                        top: 62px;
+                    }
                 }
             }
 
