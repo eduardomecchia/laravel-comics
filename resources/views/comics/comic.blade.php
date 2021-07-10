@@ -11,7 +11,7 @@
 @section("content")
     <div class="bar"></div>
 
-    <div class="wrapper">
+    <section class="wrapper">
         <div class="container single-comic">
             <img class="thumbnail" src="{{ $comic['thumb'] }}" alt="">
 
@@ -43,10 +43,10 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Talent and specs of the selected comic -->
-    <div class="comic-details">
+    <section class="comic-details">
 
-    </div>
+    </section>
 @endsection
