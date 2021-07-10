@@ -139,6 +139,7 @@
   flex-wrap: wrap;
   padding: 50px 0;
   position: relative;
+  gap: 20px;
 }
 #main-content > .container.comics h2 {
   background-color: #0282f9;
@@ -153,11 +154,22 @@
 #main-content > .container.comics .comic {
   text-transform: uppercase;
   text-decoration: none;
-  max-width: 192px;
+  max-width: 175px;
   cursor: pointer;
+}
+#main-content > .container.comics .comic .thumbnail-wrapper {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+}
+#main-content > .container.comics .comic .thumbnail-wrapper img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #main-content > .container.comics .comic .comic-series {
   color: #ffffff;
+  margin-top: 20px;
 }
 
 /* Single comic page rules */

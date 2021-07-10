@@ -8,7 +8,10 @@
 
         @foreach($comics as $id => $comic)
             <a href="{{ route('comic', $id) }}" class="comic">
-                <img src="{{ $comic['thumb'] }}" alt="">
+                <div class="thumbnail-wrapper">
+                    <img src="{{ $comic['thumb'] }}" alt="">
+                </div>    
+
                 <div class="comic-series">{{ $comic["series"] }}</div>
             </a>
         @endforeach
